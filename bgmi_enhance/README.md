@@ -1,28 +1,31 @@
 # BGMI Tactical Maps
 
-A React + TypeScript tactical planning interface for Erangel, Miramar, and Rondo.
-
-## Features
-- Click-to-place tactical markers (custom, attack, defend, loot, vehicle, recall)
-- Squad route drafting with waypoint undo/clear
-- Approximate distance measurement with a user-adjustable calibration factor
-- Optional grid overlay, searchable marker list, and map switching
-- Local browser autosave, JSON import/export, and multiple named plans
-- Responsive dark tactical interface
+React + TypeScript tactical planning app for Erangel, Miramar and Rondo.
 
 ## Run locally
 ```bash
-npm ci
+cd bgmi_enhance
+npm install
 npm run dev
 ```
 
-## Verify
+## Checks
 ```bash
 npm test
 npm run build
 ```
 
-## Notes
-Plans are stored in the current browser's local storage; use JSON export to move a plan to another device. Coordinate and distance tools operate on the displayed map image. Distance is approximate until calibrated. Vehicle and hot-drop reference notes are community heuristics and can change with game versions or modes.
+## Features
+- Tactical marker types: custom, attack, defend, loot, vehicle and recall
+- Route waypoint planning and undo/clear
+- Distance measurement with a user-adjustable calibration factor
+- Grid overlay, searchable marker list, multiple plans
+- Local browser autosave plus JSON import/export
+- Responsive dark tactical UI
 
-This is an independent community planning tool and is not affiliated with or endorsed by KRAFTON or PUBG Studios.
+## Map imagery
+The original map image binaries (`public/maps/erangel.webp`, `miramar.webp`, `rondo.webp`) still need to be uploaded from the supplied ZIP. The GitHub connector available for this commit can create text files but cannot transmit the 3 large binary image assets, so the committed app will not display its map backgrounds until these files are added.
+
+Plans are stored in local browser storage. Measurements are approximate until the map's scale is calibrated. Tactical intelligence values are community heuristics and not guaranteed spawns.
+
+Independent community planning tool; not affiliated with or endorsed by KRAFTON or PUBG Studios.
