@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "notice": "Community/strategy reference only. Vehicle availability and recall mechanics can vary by game mode and update. Drop ratings are heuristic suggestions, not match telemetry or guarantees.",
+  "maps": {
+    "erangel": {
+      "vehicleIntel": [
+        "Motorbike",
+        "Dacia",
+        "UAZ",
+        "Buggy",
+        "Coupe RB",
+        "Boat",
+        "Motorglider (mode dependent)"
+      ],
+      "hotDrops": [
+        {
+          "name": "Pochinki",
+          "risk": "high",
+          "confidence": "community heuristic"
+        },
+        {
+          "name": "School",
+          "risk": "high",
+          "confidence": "community heuristic"
+        },
+        {
+          "name": "Rozhok",
+          "risk": "high",
+          "confidence": "community heuristic"
+        },
+        {
+          "name": "Georgopol",
+          "risk": "high",
+          "confidence": "community heuristic"
+        }
+      ],
+      "sources": [
+        "https://pubg.com/"
+      ]
+    },
+    "miramar": {
+      "vehicleIntel": [
+        "Mirado",
+        "Pickup truck",
+        "Buggy",
+        "Motorbike",
+        "Boat"
+      ],
+      "hotDrops": [
+        {
+          "name": "Pecado",
+          "risk": "high",
+          "confidence": "community heuristic"
+        },
+        {
+          "name": "Los Leones",
+          "risk": "high",
+          "confidence": "community heuristic"
+        },
+        {
+          "name": "El Pozo",
+          "risk": "high",
+          "confidence": "community heuristic"
+        }
+      ],
+      "sources": [
+        "https://pubg.com/"
+      ]
+    },
+    "rondo": {
+      "vehicleIntel": [
+        "Blanc",
+        "Dacia",
+        "Motorbike",
+        "Buggy",
+        "Coupe RB",
+        "Pico Bus",
+        "Boat"
+      ],
+      "hotDrops": [
+        {
+          "name": "Jadena City",
+          "risk": "high",
+          "confidence": "community/competitive heuristic"
+        },
+        {
+          "name": "Stadium",
+          "risk": "high",
+          "confidence": "community/competitive heuristic"
+        },
+        {
+          "name": "Neox Factory",
+          "risk": "high",
+          "confidence": "community/competitive heuristic"
+        },
+        {
+          "name": "Jao Tin",
+          "risk": "high",
+          "confidence": "community/competitive heuristic"
+        }
+      ],
+      "sources": [
+        "https://pubg.com/"
+      ]
+    }
+  }
+}
